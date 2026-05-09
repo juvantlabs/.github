@@ -24,20 +24,37 @@
 publish the frameworks, MCP servers, and tooling we use internally — released
 under MIT so other companies can run their own Claude-powered agent stacks.
 
-### Featured repos
+### Frameworks
 
 - **[juvant-os](https://github.com/juvantlabs/juvant-os)** — Skill-first
   multi-agent operating system on Claude Code. Open `claude` in a folder, say
   *"Initialize Juvant OS for &lt;your-company&gt;"*, the Skill orchestrates
   the company. No CLI, no daemon, no installation.
+
+### MCP servers
+
+- **[m365-graph-mcp-server](https://github.com/juvantlabs/m365-graph-mcp-server)** —
+  Microsoft Graph MCP server. OneDrive, SharePoint, and Calendar surfaces with
+  read+write OAuth flow. Drop-in for `juvant-os`'s `ms-graph` abstract role.
+- **[aruba-fattura-mcp-server](https://github.com/juvantlabs/aruba-fattura-mcp-server)** —
+  Aruba Fatturazione Elettronica REST API v2 wrapper. Italian SDI e-invoicing
+  surface for the `fattura_elettronica` abstract role in `juvant-os`.
+
+### Tools and libraries
+
+- **[engram](https://github.com/juvantlabs/engram)** — Python-native browser
+  automation with cached LLM-resolved selectors. Use it when an MCP server
+  doesn't exist yet and you need an agent to drive a web UI deterministically.
+- **[juvant-tools](https://github.com/juvantlabs/juvant-tools)** —
+  OSS-shareable utility scripts, dev tools, and CLI helpers extracted from
+  internal use.
+
+### Governance
+
 - **[handbook](https://github.com/juvantlabs/handbook)** — org-level
   architectural decision records (ADRs) describing how `juvantlabs` operates:
   naming conventions, namespace structure, repo-type specs, contribution
   policy, license defaults.
-- **[m365-graph-mcp-server](https://github.com/juvantlabs/m365-graph-mcp-server)** —
-  Microsoft Graph MCP server for OneDrive/SharePoint document access from
-  Claude. Read+write OAuth flow, drop-in for the framework's `ms-graph`
-  abstract role.
 - **[.github](https://github.com/juvantlabs/.github)** — this repo. Org-wide
   community health files (CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, issue/PR
   templates) that apply by default to every `juvantlabs/*` repo.
