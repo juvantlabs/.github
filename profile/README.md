@@ -36,9 +36,6 @@ under MIT so other companies can run their own Claude-powered agent stacks.
 - **[m365-graph-mcp-server](https://github.com/juvantlabs/m365-graph-mcp-server)** —
   Microsoft Graph MCP server. OneDrive, SharePoint, and Calendar surfaces with
   read+write OAuth flow. Drop-in for `juvant-os`'s `ms-graph` abstract role.
-- **[aruba-fattura-mcp-server](https://github.com/juvantlabs/aruba-fattura-mcp-server)** —
-  Aruba Fatturazione Elettronica REST API v2 wrapper. Italian SDI e-invoicing
-  surface for the `fattura_elettronica` abstract role in `juvant-os`.
 
 ### Tools and libraries
 
