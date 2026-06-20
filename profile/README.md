@@ -94,7 +94,7 @@ the answer is in [handbook](https://github.com/juvantlabs/handbook).
 
 ## Contact
 
-- Email: [dev@juvant.io](mailto:dev@juvant.io)
+- Email: [labs@juvant.io](mailto:labs@juvant.io)
 - Security: [security@juvant.io](mailto:security@juvant.io)
 - Website: [juvant.io](https://juvant.io)
-- Location: Milan, Italy
+- Location: Italy
