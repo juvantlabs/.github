@@ -39,6 +39,28 @@ wins over this one.
 7. **PR description**: use [the template](./PULL_REQUEST_TEMPLATE.md). Include
    summary + test plan + any breaking-change callouts.
 
+## AI-Assisted Contributions
+
+AI-assisted contributions are welcome and expected in `juvantlabs/*` projects. If you use an AI agent
+to author a significant portion of your PR, disclose it and follow the same standards as you would
+for any other contribution:
+
+1. **Disclose AI assistance in your PR description.** Add a note like "Authored with Claude Code" or
+   "Generated with Copilot" — name the tool, not the specific model. Reviewers should know what
+   they're reading and how it was made.
+
+2. **Sign every commit.** You remain the author. Sign with `git commit -s` (DCO signoff) as the
+   project's existing convention requires. The human author is responsible for testing, reviewing
+   each diff, and verifying correctness before submitting.
+
+3. **Keep diffs small and human-readable.** AI-generated commits often include noise, redundant
+   steps, or unused scaffolding. Squash, rebase, and clean up before opening the PR. A reviewer
+   should be able to read your diff in one sitting and understand every change. This standard
+   applies equally to human-authored and AI-assisted PRs.
+
+We build `juvantlabs/*` the same way — with disclosure, with signed commits, and with careful
+review. Your contribution fits the same pattern.
+
 ## What "good" looks like
 
 - **Small, focused PRs** are merged faster. If you're touching more than ~5
