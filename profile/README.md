@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://juvant.io/logos/juvant-logo-transparent.png" alt="Juvant" width="240" />
+<img src="https://labs.juvant.io/logos/juvantlabs-logo-solar.webp" alt="/juvantlabs" width="240" />
 
 <br/>
 <br/>
