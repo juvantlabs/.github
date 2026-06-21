@@ -9,8 +9,8 @@
 
 <br/>
 
-[![Website](https://img.shields.io/badge/juvant.io-080B14?style=flat-square&logo=globe&logoColor=A855F7)](https://juvant.io)
-[![Email](https://img.shields.io/badge/dev@juvant.io-080B14?style=flat-square&logo=mail.ru&logoColor=22D3EE)](mailto:dev@juvant.io)
+[![Website](https://img.shields.io/badge/juvant.io-080B14?style=flat-square&logo=globe&logoColor=A855F7)](https://labs.juvant.io)
+[![Email](https://img.shields.io/badge/dev@juvant.io-080B14?style=flat-square&logo=mail.ru&logoColor=22D3EE)](mailto:labs@juvant.io)
 [![X](https://img.shields.io/badge/@juvant__io-080B14?style=flat-square&logo=x&logoColor=white)](https://x.com/juvant_io)
 [![License](https://img.shields.io/badge/MIT-080B14?style=flat-square)](https://opensource.org/licenses/MIT)
 
